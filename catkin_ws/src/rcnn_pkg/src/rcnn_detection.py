@@ -63,15 +63,15 @@ class rcnn_detection(object):
 		self.cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")  # Let training initialize from model zoo
 		self.cfg.MODEL.ROI_HEADS.NUM_CLASSES = 5  # datasets classes
 		self.cfg.DATALOADER.NUM_WORKERS = 0 #Single thread
-		self.cfg.MODEL.WEIGHTS = os.path.join(self.path, "weights", "model_0096989.pth")
+		self.cfg.MODEL.WEIGHTS = os.path.join(self.path, "weights", "model_final.pth")
 		self.cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7   # set the testing threshold for this model
 
 		# self.cfg.DATASETS.TEST = ("subt_val", )
 		self.predictor = DefaultPredictor(self.cfg)
 
 		### msg filter 
-		image_sub = message_filters.Subscriber('/camera/color/image_raw', Image)
-		depth_sub = message_filters.Subscriber('/camera/aligned_depth_to_color/image_raw', Image)
+		image_sub = message_filters.Subscriber('/ex_side_camera/color/image_raw', Image)
+		depth_sub = message_filters.Subscriber('/ex_side_camera/aligned_depth_to_color/image_raw', Image)
 		ts = message_filters.TimeSynchronizer([image_sub, depth_sub], 10)
 		ts.registerCallback(self.callback)
 
