@@ -1,0 +1,54 @@
+{
+    "exported_objectclasses": [
+        "water_glass",
+        "bowl",
+        "bowl"
+    ],
+    "exported_objects": [
+        {
+            "class": "water_glass",
+            "segmentationclass_id": 120,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.9982399940490724,
+                5.0,
+                4.0
+            ]
+        },
+        {
+            "class": "bowl",
+            "segmentationclass_id": 40,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                12.496500015258789,
+                4.25,
+                12.494379997253418
+            ]
+        },
+        {
+            "class": "bowl",
+            "segmentationclass_id": 40,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                12.496500015258789,
+                4.25,
+                12.494379997253418
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "exported_objectclasses": [
+        "bowl",
+        "small_fork",
+        "small_spoon",
+        "water_glass"
+    ],
+    "exported_objects": [
+        {
+            "class": "bowl",
+            "segmentationclass_id": 40,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                12.496500015258789,
+                4.25,
+                12.494379997253418
+            ]
+        },
+        {
+            "class": "small_fork",
+            "segmentationclass_id": 80,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                1.8888659477233887,
+                11.847359657287598,
+                0.9828579425811768
+            ]
+        },
+        {
+            "class": "small_spoon",
+            "segmentationclass_id": 100,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                11.9375,
+                2.682379961013794,
+                1.5498700141906739
+            ]
+        },
+        {
+            "class": "water_glass",
+            "segmentationclass_id": 120,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.9982399940490724,
+                5.0,
+                4.0
+            ]
+        }
+    ]
+}

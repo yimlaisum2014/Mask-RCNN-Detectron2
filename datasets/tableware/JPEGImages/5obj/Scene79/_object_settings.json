@@ -1,0 +1,86 @@
+{
+    "exported_objectclasses": [
+        "big_spoon",
+        "big_fork",
+        "bowl",
+        "packet_cup",
+        "knife"
+    ],
+    "exported_objects": [
+        {
+            "class": "big_spoon",
+            "segmentationclass_id": 30,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                14.92188835144043,
+                3.3529598712921144,
+                1.9373409748077393
+            ]
+        },
+        {
+            "class": "big_fork",
+            "segmentationclass_id": 10,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                2.3610801696777345,
+                14.809170722961426,
+                1.228572964668274
+            ]
+        },
+        {
+            "class": "bowl",
+            "segmentationclass_id": 40,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                12.496500015258789,
+                4.25,
+                12.494379997253418
+            ]
+        },
+        {
+            "class": "packet_cup",
+            "segmentationclass_id": 70,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.5,
+                5.0,
+                7.0
+            ]
+        },
+        {
+            "class": "knife",
+            "segmentationclass_id": 50,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                16.406959533691408,
+                2.1409201622009279,
+                0.7999899983406067
+            ]
+        }
+    ]
+}

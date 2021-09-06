@@ -8,4 +8,5 @@
   </include> -->
 
   <node pkg="rcnn_pkg" type="rcnn_detection_pc.py" name="MaskRCNN_detection" output="screen"/>
+  <node pkg="ICP" type="icp_tableware" name="icp_tableware" output="screen"/>
 </launch>

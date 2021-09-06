@@ -1,0 +1,54 @@
+{
+    "exported_objectclasses": [
+        "bowl",
+        "small_plates",
+        "knife"
+    ],
+    "exported_objects": [
+        {
+            "class": "bowl",
+            "segmentationclass_id": 40,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                12.496500015258789,
+                4.25,
+                12.494379997253418
+            ]
+        },
+        {
+            "class": "small_plates",
+            "segmentationclass_id": 90,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                10.498180389404297,
+                1.4828319549560547,
+                10.496399879455567
+            ]
+        },
+        {
+            "class": "knife",
+            "segmentationclass_id": 50,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                16.406959533691408,
+                2.1409201622009279,
+                0.7999899983406067
+            ]
+        }
+    ]
+}

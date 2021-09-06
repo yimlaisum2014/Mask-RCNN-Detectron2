@@ -1,0 +1,38 @@
+{
+    "exported_objectclasses": [
+        "big_plates",
+        "mug"
+    ],
+    "exported_objects": [
+        {
+            "class": "big_plates",
+            "segmentationclass_id": 20,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                17.488298416137697,
+                1.4816139936447144,
+                17.499980926513673
+            ]
+        },
+        {
+            "class": "mug",
+            "segmentationclass_id": 60,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                11.08407974243164,
+                7.500000476837158,
+                8.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "exported_objectclasses": [
+        "teacup",
+        "small_spoon"
+    ],
+    "exported_objects": [
+        {
+            "class": "teacup",
+            "segmentationclass_id": 110,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                8.553979873657227,
+                5.093140125274658,
+                6.327360153198242
+            ]
+        },
+        {
+            "class": "small_spoon",
+            "segmentationclass_id": 100,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                11.9375,
+                2.682379961013794,
+                1.5498700141906739
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "exported_objectclasses": [
+        "big_fork",
+        "wine_glass",
+        "knife",
+        "wine_glass"
+    ],
+    "exported_objects": [
+        {
+            "class": "big_fork",
+            "segmentationclass_id": 10,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                2.3610801696777345,
+                14.809170722961426,
+                1.228572964668274
+            ]
+        },
+        {
+            "class": "wine_glass",
+            "segmentationclass_id": 130,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                7.912879943847656,
+                15.5,
+                7.9039201736450199
+            ]
+        },
+        {
+            "class": "knife",
+            "segmentationclass_id": 50,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                16.406959533691408,
+                2.1409201622009279,
+                0.7999899983406067
+            ]
+        },
+        {
+            "class": "wine_glass",
+            "segmentationclass_id": 130,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                7.912879943847656,
+                15.5,
+                7.9039201736450199
+            ]
+        }
+    ]
+}

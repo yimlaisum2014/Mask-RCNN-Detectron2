@@ -1,0 +1,70 @@
+{
+    "exported_objectclasses": [
+        "mug",
+        "big_fork",
+        "big_fork",
+        "big_spoon"
+    ],
+    "exported_objects": [
+        {
+            "class": "mug",
+            "segmentationclass_id": 60,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                11.08407974243164,
+                7.500000476837158,
+                8.0
+            ]
+        },
+        {
+            "class": "big_fork",
+            "segmentationclass_id": 10,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                2.3610801696777345,
+                14.809170722961426,
+                1.228572964668274
+            ]
+        },
+        {
+            "class": "big_fork",
+            "segmentationclass_id": 10,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                2.3610801696777345,
+                14.809170722961426,
+                1.228572964668274
+            ]
+        },
+        {
+            "class": "big_spoon",
+            "segmentationclass_id": 30,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                14.92188835144043,
+                3.3529598712921144,
+                1.9373409748077393
+            ]
+        }
+    ]
+}

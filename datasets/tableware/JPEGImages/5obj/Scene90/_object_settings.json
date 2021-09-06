@@ -1,0 +1,86 @@
+{
+    "exported_objectclasses": [
+        "small_fork",
+        "teacup",
+        "water_glass",
+        "teacup",
+        "big_plates"
+    ],
+    "exported_objects": [
+        {
+            "class": "small_fork",
+            "segmentationclass_id": 80,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                1.8888659477233887,
+                11.847359657287598,
+                0.9828579425811768
+            ]
+        },
+        {
+            "class": "teacup",
+            "segmentationclass_id": 110,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                8.553979873657227,
+                5.093140125274658,
+                6.327360153198242
+            ]
+        },
+        {
+            "class": "water_glass",
+            "segmentationclass_id": 120,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.9982399940490724,
+                5.0,
+                4.0
+            ]
+        },
+        {
+            "class": "teacup",
+            "segmentationclass_id": 110,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                8.553979873657227,
+                5.093140125274658,
+                6.327360153198242
+            ]
+        },
+        {
+            "class": "big_plates",
+            "segmentationclass_id": 20,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                17.488298416137697,
+                1.4816139936447144,
+                17.499980926513673
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "exported_objectclasses": [
+        "knife",
+        "teacup",
+        "teacup",
+        "water_glass"
+    ],
+    "exported_objects": [
+        {
+            "class": "knife",
+            "segmentationclass_id": 50,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                16.406959533691408,
+                2.1409201622009279,
+                0.7999899983406067
+            ]
+        },
+        {
+            "class": "teacup",
+            "segmentationclass_id": 110,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                8.553979873657227,
+                5.093140125274658,
+                6.327360153198242
+            ]
+        },
+        {
+            "class": "teacup",
+            "segmentationclass_id": 110,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                8.553979873657227,
+                5.093140125274658,
+                6.327360153198242
+            ]
+        },
+        {
+            "class": "water_glass",
+            "segmentationclass_id": 120,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.9982399940490724,
+                5.0,
+                4.0
+            ]
+        }
+    ]
+}

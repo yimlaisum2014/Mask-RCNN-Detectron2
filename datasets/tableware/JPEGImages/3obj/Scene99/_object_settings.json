@@ -1,0 +1,54 @@
+{
+    "exported_objectclasses": [
+        "knife",
+        "bowl",
+        "packet_cup"
+    ],
+    "exported_objects": [
+        {
+            "class": "knife",
+            "segmentationclass_id": 50,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                16.406959533691408,
+                2.1409201622009279,
+                0.7999899983406067
+            ]
+        },
+        {
+            "class": "bowl",
+            "segmentationclass_id": 40,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                12.496500015258789,
+                4.25,
+                12.494379997253418
+            ]
+        },
+        {
+            "class": "packet_cup",
+            "segmentationclass_id": 70,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.5,
+                5.0,
+                7.0
+            ]
+        }
+    ]
+}

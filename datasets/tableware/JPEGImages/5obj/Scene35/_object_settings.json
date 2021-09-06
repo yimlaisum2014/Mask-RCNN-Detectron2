@@ -1,0 +1,86 @@
+{
+    "exported_objectclasses": [
+        "small_plates",
+        "big_plates",
+        "water_glass",
+        "small_plates",
+        "knife"
+    ],
+    "exported_objects": [
+        {
+            "class": "small_plates",
+            "segmentationclass_id": 90,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                10.498180389404297,
+                1.4828319549560547,
+                10.496399879455567
+            ]
+        },
+        {
+            "class": "big_plates",
+            "segmentationclass_id": 20,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                17.488298416137697,
+                1.4816139936447144,
+                17.499980926513673
+            ]
+        },
+        {
+            "class": "water_glass",
+            "segmentationclass_id": 120,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                3.9982399940490724,
+                5.0,
+                4.0
+            ]
+        },
+        {
+            "class": "small_plates",
+            "segmentationclass_id": 90,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                10.498180389404297,
+                1.4828319549560547,
+                10.496399879455567
+            ]
+        },
+        {
+            "class": "knife",
+            "segmentationclass_id": 50,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                16.406959533691408,
+                2.1409201622009279,
+                0.7999899983406067
+            ]
+        }
+    ]
+}
