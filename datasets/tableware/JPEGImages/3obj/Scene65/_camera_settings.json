@@ -1,0 +1,19 @@
+{
+    "camera_settings": [
+        {
+            "name": "main",
+            "horizontal_fov": 30,
+            "intrinsic_settings": {
+                "fx": 1194.2562255859375,
+                "fy": 1194.2562255859375,
+                "cx": 320,
+                "cy": 240,
+                "s": 0
+            },
+            "captured_image_size": {
+                "width": 640,
+                "height": 480
+            }
+        }
+    ]
+}

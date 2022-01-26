@@ -1,0 +1,38 @@
+{
+    "exported_objectclasses": [
+        "small_fork",
+        "big_fork"
+    ],
+    "exported_objects": [
+        {
+            "class": "small_fork",
+            "segmentationclass_id": 80,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                1.8888659477233887,
+                11.847359657287598,
+                0.9828579425811768
+            ]
+        },
+        {
+            "class": "big_fork",
+            "segmentationclass_id": 10,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                2.3610801696777345,
+                14.809170722961426,
+                1.228572964668274
+            ]
+        }
+    ]
+}

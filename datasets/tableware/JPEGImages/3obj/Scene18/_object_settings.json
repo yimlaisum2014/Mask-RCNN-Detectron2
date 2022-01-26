@@ -1,0 +1,54 @@
+{
+    "exported_objectclasses": [
+        "big_plates",
+        "big_plates",
+        "wine_glass"
+    ],
+    "exported_objects": [
+        {
+            "class": "big_plates",
+            "segmentationclass_id": 20,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                17.488298416137697,
+                1.4816139936447144,
+                17.499980926513673
+            ]
+        },
+        {
+            "class": "big_plates",
+            "segmentationclass_id": 20,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                17.488298416137697,
+                1.4816139936447144,
+                17.499980926513673
+            ]
+        },
+        {
+            "class": "wine_glass",
+            "segmentationclass_id": 130,
+            "fixed_model_transform": [
+                [ 0, 0, 100, 0 ],
+                [ 0, -100, 0, 0 ],
+                [ 100, 0, 0, 0 ],
+                [ 0, 0, 0, 1 ]
+            ],
+            "cuboid_dimensions": [
+                7.912879943847656,
+                15.5,
+                7.9039201736450199
+            ]
+        }
+    ]
+}

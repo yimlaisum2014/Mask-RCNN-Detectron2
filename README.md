@@ -1,3 +1,25 @@
+Project-Target : To get object pose
+
+Method : MaskRCNN + ICP 
+
+Object : tableware 
+
+1. mesh model by trimesh
+```bash
+python mesh2points.py -i model.stl -o output.pcd -n 1000
+```
+
+2. Run MaskRCNN
+```bash
+roslaunch rcnn_pkg mask_rcnn_prediction.launch
+```
+
+3. RUN ICP
+```bash
+roslaunch ICP icp.launch
+```
+
+_____________________________________________________
 [Tutorial-by-Alex](https://drive.google.com/drive/folders/1Te0Z4GQ5oq1zPeyxpZb-ReG48k9kvdlQ?usp=sharing)  
   
   
